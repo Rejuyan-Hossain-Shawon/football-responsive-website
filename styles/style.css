@@ -106,3 +106,20 @@ nav{
     height: 256px;
 }
 
+/* 3rd section Highlight section */
+.all-highlight{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+.highlight-title{
+    color: #0A0826;
+    font-size: 48px;
+}
+.highlight-image img{
+    width: 567px;
+    height: 427px;
+}
+
