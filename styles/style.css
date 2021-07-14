@@ -33,6 +33,11 @@ body{
     height: 677px;
     background-color: #2D25A0;
 }
+.football-field:hover .football-theme{
+    /* hover transform for football field class with transition */
+    transform: rotate(55deg);
+    transition: transform 1s ease-in-out;
+}
 nav{
     padding-top: 42px;
     margin-left: 10%;
