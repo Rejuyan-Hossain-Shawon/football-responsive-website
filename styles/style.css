@@ -90,11 +90,12 @@ nav {
 
 .players {
     margin-top: 100px;
-    margin-left: 14%;
-    margin-right: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 80px;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
 }
 
 .player {
