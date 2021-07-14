@@ -76,8 +76,7 @@ nav{
     width: 556px;
     height: 438px;
     
-    background-image: url("../images/banner.png");
-    background-repeat: no-repeat;
+    
 }
 
 
@@ -94,7 +93,7 @@ nav{
 .player{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     padding: 15px;
-    border: 1px solid black;
+    
     height: 474px;
     width: 330px;
     display: flex;
@@ -122,4 +121,88 @@ nav{
     width: 567px;
     height: 427px;
 }
+
+/* footer section */
+footer{
+    margin-top: 100px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+}
+.footer-img img{
+    width: 485px;
+    height: 110px;
+}
+.social-icon-link i{
+    color:  #969BAB;
+    font-size: 17px;
+ 
+    width: 32px;
+}
+
+
+
+/* With media query making it responsive */
+
+/* small device */
+@media only screen and (max-width: 600px) {
+    .football-field{
+        
+        flex-direction: column;
+    }
+    .football-details .top-title{
+        font-size: 18px;
+        margin-right: 90px;
+} 
+.top-section{
+    position: static;
+    height: 100%;
+}
+
+.football-theme{
+    margin-top:10px;
+    width: 67%;
+    height: 100%;
+}
+.football-theme img{
+    width: 90%;
+}
+   .players{
+    position: relative;
+    margin-top: 10px;
+    grid-template-columns: repeat(1,1fr);
+   }
+   .player{
+       padding: 0px;
+   }
+   .player-profile img{
+    width: 100%;
+    height: 100%;
+   }
+   .players h1{
+       margin: 0px;
+   }
+   .all-highlight{
+       margin-top: 10px;
+       flex-direction: column;
+   }
+   .highlight-image{
+    margin-top: 10px;
+   }
+   .highlight-image img{
+       height: 100%;
+       width: 100%;
+   }
+   footer{
+       margin-top: 0px;
+   }
+   .footer-img img{
+    width: 80%;
+    height: 100%;
+   }
+
+}
+
+
+
 
