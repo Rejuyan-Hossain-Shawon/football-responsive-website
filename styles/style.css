@@ -1,0 +1,73 @@
+/* import popins 400 regular from google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* common used utilities */
+
+
+body{
+     margin: 0px;
+    
+    font-family: 'Poppins', sans-serif;
+}
+.highlight-text-heading{
+    font-weight: 700;
+}
+
+.icon-btn{
+    height: 44px;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+}
+.icon-btn a{
+    text-decoration: none;
+    color: white;
+}
+.fa-arrow-right{
+    margin:0px 5px;
+}
+
+
+
+/* top section releated styles */
+.top-section{
+    height: 677px;
+    background-color: #2D25A0;
+}
+nav{
+    padding-top: 42px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link a{
+    margin-right: 36px;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+/* football field area */
+.football-field{
+    margin-top: 67px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+.football-details .top-title{
+    margin: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 64px;
+}
+.football-theme{
+    width: 556px;
+    height: 438px;
+    
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+}
